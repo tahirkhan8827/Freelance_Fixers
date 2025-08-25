@@ -463,7 +463,8 @@ body {
   position: relative;
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #25D366, #128C7E);
+  /* background: linear-gradient(135deg, #25D366, #128C7E); */
+  
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -500,7 +501,8 @@ body {
 
 .floating-container:hover .floating-btn {
   animation: pendulum 1.5s infinite ease-in-out;
-  background: linear-gradient(135deg, #128C7E, #25D366);
+  /* background: linear-gradient(135deg, #128C7E, #25D366); */
+  /* background: linear-gradient(90deg, rgb(0, 94, 166), rgb(222, 91, 158)); */
 }
 
 /* Smooth Pendulum Animation */
